@@ -1,0 +1,131 @@
+/* General body styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: rgba(153, 0, 230, 0.849);
+    color: #333; /* Darker text for readability */
+    line-height: 1.6;
+}
+
+/* Form styling */
+form {
+    margin: auto;
+    background-color: rgba(224, 188, 233, 0.85); /* Slightly higher opacity for better readability */
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    padding: 25px;
+    max-width: 700px;
+    font-size: 16px;
+}
+
+/* Headings */
+h1 {
+    text-align: center;
+    color: #222;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+/* Fieldset styling */
+fieldset {
+    border: 2px solid rgb(175, 64, 240);
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 25px;
+    background-color: rgba(222, 202, 223, 0.85);
+    font-size: 16px;
+}
+
+/* Legend styling */
+legend {
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(34, 29, 29);
+}
+
+/* Label styling */
+label {
+    display: block;
+    margin-top: 15px;
+    font-size: 16px;
+    color: #222;
+}
+
+/* Input and textarea styling */
+input, textarea {
+    margin-top: 8px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid rgb(222, 175, 226);
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 16px;
+    background-color: #fff; /* White background for text input */
+}
+
+input:focus, textarea:focus {
+    border-color: rgb(175, 64, 240);
+    outline: none;
+    box-shadow: 0 0 8px rgba(175, 64, 240, 0.4); /* Subtle focus effect */
+}
+
+/* Button styling */
+button {
+    display: block;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(215, 135, 235);
+    color: black;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+    margin-top: 15px;
+    font-size: 18px;
+    padding: 12px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(198, 120, 230);
+    color: rgb(221, 224, 47);
+    transform: scale(1.05); /* Smooth zoom effect */
+}
+
+button:active {
+    transform: scale(1); /* Prevents further zoom on click */
+}
+
+/* Resume display section */
+#resume-display {
+    max-width: 700px;
+    margin: auto;
+    padding: 25px;
+    border: 2px solid rgb(198, 135, 235);
+    border-radius: 12px;
+    background-color: rgb(245, 228, 255);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+    outline: none;
+    font-size: 16px;
+}
+
+/* Resume heading */
+#resume-display h2 {
+    color: black;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+/* Improve text content inside resume */
+#resume-display p, #resume-display ul {
+    font-size: 16px;
+    line-height: 1.8;
+    color: #333;
+}
+
+/* Ensuring better spacing */
+input, textarea, button {
+    margin-bottom: 15px;
+}
+
